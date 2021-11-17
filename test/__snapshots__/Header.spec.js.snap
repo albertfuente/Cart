@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.vue/Header mounts the component and creates a snapshot inside the __snapshots__ folder 1`] = `
+"<div class=\\"header-component\\">
+  <div class=\\"header-component-links-container\\">
+    <div class=\\"header-component-link\\"><a href=\\"/\\">
+        Inicio
+      </a></div>
+    <div class=\\"header-component-link\\"><a href=\\"/contact\\">
+        Contacto
+      </a></div>
+    <div class=\\"header-component-link\\"><a href=\\"/blog\\">
+        Nuestro Blog
+      </a></div>
+  </div>
+  <div>
+    <div class=\\"header-component-image-container\\"><img src=\\"../static/box.png\\" alt=\\"box\\"></div>
+  </div>
+</div>"
+`;
