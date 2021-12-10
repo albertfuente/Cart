@@ -102,7 +102,6 @@ export default {
 
       const pastYears = diff.toObject().years;
       this.yearsFromBuyingDate = pastYears;
-      console.log(pastYears);
     },
   },
   mounted() {
