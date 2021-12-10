@@ -1,15 +1,15 @@
 import { shallowMount } from '@vue/test-utils'
-import Header from './../components/Header.vue'
+import List from './../components/List.vue'
 
-describe('Header.vue/Header', () => {
+describe('List.vue/List', () => {
   it('mounts the component and creates a snapshot inside the __snapshots__ folder', () => {
-    const wrapper = shallowMount(Header)
+    const wrapper = shallowMount(List)
     expect(wrapper.html()).toMatchSnapshot()
   })
 
   it('is rendering main div with correct class', () => {
-    const wrapper = shallowMount(Header)
-    expect(wrapper.classes()).toContain('header-component')
+    const wrapper = shallowMount(List)
+    expect(wrapper.classes()).toContain('list-component')
   })
 
 })

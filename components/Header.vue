@@ -6,16 +6,13 @@
         v-for="(l, index) in headerLinks"
         v-bind:key="l.label + index"
       >
-        <a :href="l.link">
+        <a class="header-component-anchor" :href="l.link">
           {{ l.label }}
         </a>
       </div>
     </div>
-    <div>
-      <div class="header-component-image-container">
-        <img src="../static/box.png" alt="box" />
-      </div>
-    </div>
+    <img src="../static/logo.svg" class="header-component-logo" alt="mapit-logo"/>
+    <div>MIS MOTOS</div>
   </div>
 </template>
 
@@ -43,9 +40,11 @@ export default {
 </script>
 <style scoped>
 .header-component {
-  border: 1px solid gray;
+  border: 1px solid #ff8000;
   margin: 10px;
   padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .header-component-links-container {
   display: flex;
@@ -54,5 +53,10 @@ export default {
 }
 .header-component-link {
   margin: 0px 20px;
+}
+.header-component-anchor {
+  text-decoration: none;
+  color: #ff8000;
+  font-size: 16px;
 }
 </style>

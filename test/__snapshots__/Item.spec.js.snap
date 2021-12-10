@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item.vue/Item mounts the component and creates a snapshot inside the __snapshots__ folder 1`] = `
+"<div class=\\"item-atom\\">
+  label
+</div>"
+`;

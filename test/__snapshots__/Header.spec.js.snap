@@ -3,18 +3,16 @@
 exports[`Header.vue/Header mounts the component and creates a snapshot inside the __snapshots__ folder 1`] = `
 "<div class=\\"header-component\\">
   <div class=\\"header-component-links-container\\">
-    <div class=\\"header-component-link\\"><a href=\\"/\\">
+    <div class=\\"header-component-link\\"><a href=\\"/\\" class=\\"header-component-anchor\\">
         Inicio
       </a></div>
-    <div class=\\"header-component-link\\"><a href=\\"/contact\\">
+    <div class=\\"header-component-link\\"><a href=\\"/contact\\" class=\\"header-component-anchor\\">
         Contacto
       </a></div>
-    <div class=\\"header-component-link\\"><a href=\\"/blog\\">
+    <div class=\\"header-component-link\\"><a href=\\"/blog\\" class=\\"header-component-anchor\\">
         Nuestro Blog
       </a></div>
-  </div>
-  <div>
-    <div class=\\"header-component-image-container\\"><img src=\\"../static/box.png\\" alt=\\"box\\"></div>
-  </div>
+  </div> <img src=\\"../static/logo.svg\\" alt=\\"mapit-logo\\" class=\\"header-component-logo\\">
+  <div>MIS MOTOS</div>
 </div>"
 `;

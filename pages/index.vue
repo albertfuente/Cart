@@ -1,8 +1,7 @@
 <template>
   <div>
     <Header />
-    <Cart />
-    <Summary />
+    <List />
   </div>
 </template>
 
