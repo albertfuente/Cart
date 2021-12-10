@@ -22,7 +22,7 @@ $ yarn test
 
 
 ## INTRODUCTION
-This is a site for checking your motorbikes data and request an appointment.
+This is a site for checking your motorbikes data, actual price and request an appointment.
 
 
 
